@@ -1,0 +1,64 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+
+    background-color:#a7a7a7;
+ }
+ .contaner{
+     background-color: #fff;
+     margin:0 ;
+     padding: 0;
+ width: 300px;
+ height: 300px;
+ border: 2px solid black;
+ border-radius: 20px 0 20px 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 25px;
+ position: relative;
+ left: 450px;
+ top: 150px;
+ box-shadow: 10px 10px 10px 10px #333;
+ }
+ button{
+     position: relative;
+     top: 100px;
+     right: 100px;
+     color:#0a66c2;
+     animation-name:jassim ;
+     animation-play-state: running;
+     animation-iteration-count: infinite;
+ }
+ textarea{
+     
+ 
+ box-shadow: 10px 10px 10px 10px #555;
+     width: 60%;
+     height: 60%;
+     margin-bottom: 20px;
+ }
+ 
+ 
+ h1{
+     color:#7300e6;
+ display: block;
+ margin-left: 450px;
+ position: relative;
+ 
+ top: 100px;
+ }
+ 
+ 
+ span
+ {
+     display: none;
+     position: relative;
+     top: 150px;
+     right: 150px;
+ }

@@ -1,0 +1,49 @@
+<!DOCTYPE html >
+<body>
+  <body id="u">
+    
+  </body>
+  <meta charset="UTF-8">
+  <script src="https://kit.fontawesome.com/a2673a891a.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="new.css">
+ 
+<body>
+  
+  <h1>click copy to copy the text</h1>
+  <div class="contaner"> 
+
+<textarea>Lorem ipsum dolor sit amet.</textarea>
+
+<button class="btn">copy<i class="fa-solid fa-copy"></i></button>
+<span>copid!</span>
+  </div>
+</body>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+$('button').click(function(){
+$('span').fadeIn(1000)
+
+$('textarea').select();
+document.execCommand("copy");
+})
+
+
+
+
+
+
+})
+
+
+
+
+</script>
+</html>
